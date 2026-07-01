@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>뷰티 상세페이지 템플릿</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; background: #fff; max-width: 500px; margin: 0 auto; }
+  :root {
+    --main-color: #C9748F;
+    --sub-color: #E8A4B8;
+    --bg-color: #FDF6F8;
+    --accent-color: #FF3B30;
+  }
+</style>
+</head>
+<body>
+
+<!-- 1. 히어로 -->
+<div style="background: var(--bg-color); padding: 40px 20px; text-align: center;">
+  <img src="../brand/logo/logo.png" alt="로고" style="height: 50px; margin-bottom: 24px;" onerror="this.style.display='none'">
+  <p style="font-size: 12px; color: var(--sub-color); letter-spacing: 3px; font-weight: 600; margin-bottom: 12px;">✨ 피부 고민 해결</p>
+  <h1 style="font-size: 26px; font-weight: 900; color: #333; line-height: 1.4; margin-bottom: 16px;">
+    헤드라인을<br>여기에 작성하세요
+  </h1>
+  <p style="font-size: 15px; color: #888; line-height: 1.6; margin-bottom: 28px;">서브 카피를 여기에 작성하세요</p>
+  <div style="background: #f0e4ea; height: 320px; display: flex; align-items: center; justify-content: center; border-radius: 20px; color: #bbb; font-size: 14px;">
+    여기에 제품 사진을 넣으세요
+  </div>
+</div>
+
+<!-- 2. 문제 공감 -->
+<div style="background: #fff; padding: 40px 20px;">
+  <h2 style="font-size: 20px; font-weight: 800; color: #333; line-height: 1.5; margin-bottom: 20px;">
+    혹시 이런 피부 고민<br>있으신가요?
+  </h2>
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <div style="background: var(--bg-color); border-radius: 10px; padding: 14px 16px;">
+      <p style="font-size: 15px; color: #555;">😢 피부 고민 1</p>
+    </div>
+    <div style="background: var(--bg-color); border-radius: 10px; padding: 14px 16px;">
+      <p style="font-size: 15px; color: #555;">😢 피부 고민 2</p>
+    </div>
+    <div style="background: var(--bg-color); border-radius: 10px; padding: 14px 16px;">
+      <p style="font-size: 15px; color: #555;">😢 피부 고민 3</p>
+    </div>
+  </div>
+</div>
+
+<!-- 3. 해결책 -->
+<div style="background: var(--main-color); padding: 40px 20px; text-align: center;">
+  <p style="font-size: 13px; color: rgba(255,255,255,0.8); letter-spacing: 2px; margin-bottom: 12px;">SOLUTION</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #fff; line-height: 1.4; margin-bottom: 16px;">
+    [상품명]이<br>해결해드립니다
+  </h2>
+  <p style="font-size: 15px; color: rgba(255,255,255,0.9); line-height: 1.7;">해결책 설명을 2~3줄로 작성하세요.</p>
+</div>
+
+<!-- 4. 성분/특징 -->
+<div style="background: #fff; padding: 40px 20px;">
+  <p style="font-size: 13px; color: var(--main-color); font-weight: 700; letter-spacing: 2px; margin-bottom: 12px;">핵심 성분</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #333; margin-bottom: 24px;">
+    피부에 좋은 성분만 담았습니다
+  </h2>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div style="display: flex; gap: 16px; align-items: flex-start; background: var(--bg-color); border-radius: 12px; padding: 16px;">
+      <div style="font-size: 28px; flex-shrink: 0;">🌿</div>
+      <div>
+        <p style="font-size: 16px; font-weight: 700; color: #333; margin-bottom: 4px;">성분 이름 1</p>
+        <p style="font-size: 14px; color: #777; line-height: 1.5;">성분 효능 설명</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 16px; align-items: flex-start; background: var(--bg-color); border-radius: 12px; padding: 16px;">
+      <div style="font-size: 28px; flex-shrink: 0;">💧</div>
+      <div>
+        <p style="font-size: 16px; font-weight: 700; color: #333; margin-bottom: 4px;">성분 이름 2</p>
+        <p style="font-size: 14px; color: #777; line-height: 1.5;">성분 효능 설명</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 16px; align-items: flex-start; background: var(--bg-color); border-radius: 12px; padding: 16px;">
+      <div style="font-size: 28px; flex-shrink: 0;">✨</div>
+      <div>
+        <p style="font-size: 16px; font-weight: 700; color: #333; margin-bottom: 4px;">성분 이름 3</p>
+        <p style="font-size: 14px; color: #777; line-height: 1.5;">성분 효능 설명</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 5. 사용법 -->
+<div style="background: var(--bg-color); padding: 40px 20px;">
+  <p style="font-size: 13px; color: var(--main-color); font-weight: 700; letter-spacing: 2px; margin-bottom: 12px;">사용법</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #333; margin-bottom: 24px;">이렇게 사용하세요</h2>
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="background: #fff; border-radius: 12px; padding: 16px; display: flex; align-items: center; gap: 12px;">
+      <span style="background: var(--main-color); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0;">1</span>
+      <p style="font-size: 15px; color: #444;">1단계 사용법 설명</p>
+    </div>
+    <div style="background: #fff; border-radius: 12px; padding: 16px; display: flex; align-items: center; gap: 12px;">
+      <span style="background: var(--main-color); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0;">2</span>
+      <p style="font-size: 15px; color: #444;">2단계 사용법 설명</p>
+    </div>
+    <div style="background: #fff; border-radius: 12px; padding: 16px; display: flex; align-items: center; gap: 12px;">
+      <span style="background: var(--main-color); color: #fff; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; flex-shrink: 0;">3</span>
+      <p style="font-size: 15px; color: #444;">3단계 사용법 설명</p>
+    </div>
+  </div>
+</div>
+
+<!-- 6. 후기 -->
+<div style="background: #fff; padding: 40px 20px;">
+  <p style="font-size: 13px; color: var(--main-color); font-weight: 700; letter-spacing: 2px; margin-bottom: 12px;">리얼 후기</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #333; margin-bottom: 24px;">직접 써보신 분들의 이야기</h2>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div style="background: var(--bg-color); border-radius: 16px; padding: 20px;">
+      <div style="color: var(--main-color); font-size: 16px; margin-bottom: 8px;">★★★★★</div>
+      <p style="font-size: 15px; color: #444; line-height: 1.6; margin-bottom: 10px;">"후기 내용을 여기에 넣어주세요."</p>
+      <p style="font-size: 13px; color: #aaa;">30대 직장인</p>
+    </div>
+    <div style="background: var(--bg-color); border-radius: 16px; padding: 20px;">
+      <div style="color: var(--main-color); font-size: 16px; margin-bottom: 8px;">★★★★★</div>
+      <p style="font-size: 15px; color: #444; line-height: 1.6; margin-bottom: 10px;">"두 번째 후기를 여기에 넣어주세요."</p>
+      <p style="font-size: 13px; color: #aaa;">20대 여성</p>
+    </div>
+  </div>
+</div>
+
+<!-- 7. FAQ -->
+<div style="background: var(--bg-color); padding: 40px 20px;">
+  <p style="font-size: 13px; color: var(--main-color); font-weight: 700; letter-spacing: 2px; margin-bottom: 12px;">FAQ</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #333; margin-bottom: 24px;">자주 묻는 질문</h2>
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="background: #fff; border-radius: 12px; padding: 20px;">
+      <p style="font-size: 15px; font-weight: 700; color: var(--main-color); margin-bottom: 8px;">Q. 민감한 피부도 사용 가능한가요?</p>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">A. 답변을 여기에 작성하세요.</p>
+    </div>
+    <div style="background: #fff; border-radius: 12px; padding: 20px;">
+      <p style="font-size: 15px; font-weight: 700; color: var(--main-color); margin-bottom: 8px;">Q. 효과는 언제부터 나타나나요?</p>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">A. 답변을 여기에 작성하세요.</p>
+    </div>
+    <div style="background: #fff; border-radius: 12px; padding: 20px;">
+      <p style="font-size: 15px; font-weight: 700; color: var(--main-color); margin-bottom: 8px;">Q. 용량은 얼마나 되나요?</p>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">A. 답변을 여기에 작성하세요.</p>
+    </div>
+  </div>
+</div>
+
+<!-- 8. CTA -->
+<div style="background: var(--main-color); padding: 40px 20px; text-align: center;">
+  <p style="font-size: 14px; color: rgba(255,255,255,0.85); margin-bottom: 8px;">지금 시작하세요</p>
+  <h2 style="font-size: 24px; font-weight: 900; color: #fff; line-height: 1.3; margin-bottom: 8px;">오늘의 내 피부를<br>바꿔보세요</h2>
+  <p style="font-size: 15px; color: rgba(255,255,255,0.9); margin-bottom: 32px;">첫 구매 특별 혜택 제공</p>
+  <a href="#" style="display: block; background: #fff; color: var(--main-color); font-size: 18px; font-weight: 900; padding: 18px; border-radius: 50px; text-decoration: none;">
+    지금 구매하기 →
+  </a>
+</div>
+
+<!-- 하단 안내 -->
+<div style="background: #444; padding: 24px 20px; text-align: center;">
+  <p style="font-size: 13px; color: #aaa; line-height: 1.8;">
+    배송 안내: 배송 안내 문구<br>
+    교환/반품: 교환반품 안내 문구<br>
+    고객센터: 연락처
+  </p>
+</div>
+
+</body>
+</html>

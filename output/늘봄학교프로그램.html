@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>늘봄학교 프로그램 수강신청</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    background: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #222;
+  }
+  :root {
+    --main: #1A6FBF;
+    --sub: #4A9FE0;
+    --bg: #F0F6FF;
+    --accent: #FF5722;
+  }
+</style>
+</head>
+<body>
+
+<!-- ① 후킹 헤드라인 -->
+<div style="background: linear-gradient(160deg, #1A6FBF 0%, #0D4A8A 100%); padding: 48px 24px 40px; text-align: center;">
+  <img src="../brand/logo/logo.png" alt="늘봄학교 계림초 로고" style="width: 440px; max-width: 100%; height: auto; margin-bottom: 20px;" onerror="this.style.display='none'">
+  <p style="font-size: 14px; color: rgba(255,255,255,0.75); letter-spacing: 3px; margin-bottom: 12px;">늘봄학교 프로그램</p>
+  <h1 style="font-size: 28px; font-weight: 900; color: #fff; line-height: 1.4; margin-bottom: 14px;">
+    방과 후,<br>학생들의 성장을 응원합니다
+  </h1>
+  <p style="font-size: 16px; color: rgba(255,255,255,0.88); line-height: 1.7; margin-bottom: 0;">
+    맞벌이 가정도 걱정 없이—<br>다양한 꿈과 재능을 가꿀 수 있도록
+  </p>
+</div>
+
+<!-- 수강료 뱃지 -->
+<div style="background: #fff; padding: 20px 24px; display: flex; gap: 10px; justify-content: center; border-bottom: 1px solid #eee;">
+  <span style="background: #E8F4FF; color: #1A6FBF; font-size: 14px; font-weight: 700; padding: 6px 14px; border-radius: 20px;">✅ 무료 ~ 35,000원</span>
+  <span style="background: #E8F4FF; color: #1A6FBF; font-size: 14px; font-weight: 700; padding: 6px 14px; border-radius: 20px;">✅ 온라인 간편 신청</span>
+</div>
+
+<!-- ② 문제 공감 -->
+<div style="background: #fff; padding: 44px 24px;">
+  <p style="font-size: 14px; color: var(--main); font-weight: 700; letter-spacing: 3px; margin-bottom: 12px;">혹시 이런 고민 있으신가요?</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #222; line-height: 1.45; margin-bottom: 28px;">
+    신청하고 싶은데<br>막막하셨던 적 있으셨나요?
+  </h2>
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="background: #F7FAFF; border-left: 4px solid #1A6FBF; border-radius: 0 12px 12px 0; padding: 16px 18px;">
+      <p style="font-size: 16px; color: #444; line-height: 1.55;">😟 <strong>프로그램에서 무엇을 배우는지 궁금해요</strong></p>
+    </div>
+    <div style="background: #F7FAFF; border-left: 4px solid #1A6FBF; border-radius: 0 12px 12px 0; padding: 16px 18px;">
+      <p style="font-size: 16px; color: #444; line-height: 1.55;">😩 <strong>신청 방법이 복잡할 것 같아서 미뤘어요</strong></p>
+    </div>
+    <div style="background: #F7FAFF; border-left: 4px solid #1A6FBF; border-radius: 0 12px 12px 0; padding: 16px 18px;">
+      <p style="font-size: 16px; color: #444; line-height: 1.55;">😤 <strong>아이한테 맞는 프로그램이 있을지 모르겠어요</strong></p>
+    </div>
+  </div>
+</div>
+
+<!-- ③ 해결책 -->
+<div style="background: var(--bg); padding: 44px 24px; text-align: center;">
+  <p style="font-size: 14px; color: var(--main); font-weight: 700; letter-spacing: 3px; margin-bottom: 14px;">해결책</p>
+  <h2 style="font-size: 23px; font-weight: 900; color: #222; line-height: 1.45; margin-bottom: 16px;">
+    늘봄학교는<br>지역과 함께 가르치고<br>함께 배웁니다
+  </h2>
+  <p style="font-size: 16px; color: #555; line-height: 1.75;">
+    지역 전문가·예술가·강사진이 직접 아이들 곁으로 옵니다.<br>
+    예술부터 진로탐색까지, 한 곳에서 모두 만나보세요.
+  </p>
+  <div style="margin-top: 28px; background: #fff; border-radius: 16px; padding: 20px; display: flex; justify-content: space-around;">
+    <div style="text-align: center;">
+      <p style="font-size: 26px; font-weight: 900; color: var(--main);">5개</p>
+      <p style="font-size: 14px; color: #888; margin-top: 4px;">운영 구분</p>
+    </div>
+    <div style="width: 1px; background: #eee;"></div>
+    <div style="text-align: center;">
+      <p style="font-size: 26px; font-weight: 900; color: var(--main);">40여 종</p>
+      <p style="font-size: 14px; color: #888; margin-top: 4px;">강좌 운영</p>
+    </div>
+    <div style="width: 1px; background: #eee;"></div>
+    <div style="text-align: center;">
+      <p style="font-size: 26px; font-weight: 900; color: var(--main);">무료~</p>
+      <p style="font-size: 14px; color: #888; margin-top: 4px;">합리적 수강료</p>
+    </div>
+  </div>
+</div>
+
+<!-- ④ 프로그램 소개 — 운영 주체별 5개 구분 -->
+<div style="background: #fff; padding: 44px 24px;">
+  <p style="font-size: 14px; color: var(--main); font-weight: 700; letter-spacing: 3px; margin-bottom: 12px;">프로그램 소개</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #222; line-height: 1.45; margin-bottom: 10px;">
+    이렇게 운영됩니다
+  </h2>
+  <p style="font-size: 14px; color: #888; line-height: 1.6; margin-bottom: 28px;">
+    아침부터 방과후, 돌봄까지 — 하루를 채우는 5가지 운영 프로그램
+  </p>
+
+  <!-- 운영 1: 아침 늘봄 -->
+  <div style="margin-bottom: 20px; border-radius: 16px; overflow: hidden; border: 1px solid #E8F0FF;">
+    <div style="background: #2E86C1; padding: 16px 20px; display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 26px;">🌅</span>
+      <div style="flex: 1;">
+        <p style="font-size: 16px; font-weight: 800; color: #fff;">① 아침 늘봄 <span style="font-size: 14px; background: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 10px; margin-left: 4px;">무료</span></p>
+        <p style="font-size: 14px; color: rgba(255,255,255,0.85);">등교 전 8:00~8:40 · 전체 학년</p>
+      </div>
+    </div>
+    <div style="background: #F7FAFF; padding: 16px 20px;">
+      <p style="font-size: 16px; color: #666; line-height: 1.6; margin-bottom: 12px;">일찍 등교하는 아이도 안전하게! 아침 시간을 알차게 보내요.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">독서 돌봄</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">스포츠스태킹</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 운영 2: 방과후 교육 프로그램 (하위 카테고리 5개) -->
+  <div style="margin-bottom: 20px; border-radius: 16px; overflow: hidden; border: 2px solid #1A6FBF;">
+    <div style="background: linear-gradient(90deg, #1A6FBF, #0D4A8A); padding: 16px 20px; display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 26px;">📒</span>
+      <div style="flex: 1;">
+        <p style="font-size: 16px; font-weight: 800; color: #fff;">② 방과후 교육 프로그램 <span style="font-size: 14px; background: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 10px; margin-left: 4px;">유료</span></p>
+        <p style="font-size: 14px; color: rgba(255,255,255,0.85);">전체 학년 · 5개 분야 17개 강좌</p>
+      </div>
+    </div>
+    <div style="background: #F7FAFF; padding: 18px 18px 20px;">
+
+      <!-- 하위 카테고리 -->
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <!-- 예술·음악 -->
+        <div style="background: #fff; border-radius: 12px; padding: 14px 16px;">
+          <p style="font-size: 14px; font-weight: 800; color: #1A6FBF; margin-bottom: 8px;">🎨 예술·음악</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">미술</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">클레이공예</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">댄스</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">바이올린</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">플룻</span>
+          </div>
+        </div>
+        <!-- 체육·건강 -->
+        <div style="background: #fff; border-radius: 12px; padding: 14px 16px;">
+          <p style="font-size: 14px; font-weight: 800; color: #1A6FBF; margin-bottom: 8px;">⚽ 체육·건강</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">놀이체육</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">배드민턴</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">음악줄넘기</span>
+          </div>
+        </div>
+        <!-- 학습·외국어 -->
+        <div style="background: #fff; border-radius: 12px; padding: 14px 16px;">
+          <p style="font-size: 14px; font-weight: 800; color: #1A6FBF; margin-bottom: 8px;">📚 학습·외국어</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">독서토론</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">영어회화</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">한자</span>
+          </div>
+        </div>
+        <!-- 사고력·수리 -->
+        <div style="background: #fff; border-radius: 12px; padding: 14px 16px;">
+          <p style="font-size: 14px; font-weight: 800; color: #1A6FBF; margin-bottom: 8px;">🧠 사고력·수리</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">논리수학</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">주산암산</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">바둑</span>
+          </div>
+        </div>
+        <!-- 과학·컴퓨터 -->
+        <div style="background: #fff; border-radius: 12px; padding: 14px 16px;">
+          <p style="font-size: 14px; font-weight: 800; color: #1A6FBF; margin-bottom: 8px;">🔬 과학·컴퓨터</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">로봇과학</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">생명과학</span>
+            <span style="background: #EEF6FF; color: #1A6FBF; font-size: 14px; padding: 4px 10px; border-radius: 16px;">컴퓨터</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 운영 3: AI·SW 꿈나무 교실 -->
+  <div style="margin-bottom: 20px; border-radius: 16px; overflow: hidden; border: 1px solid #E8F0FF;">
+    <div style="background: #1565A7; padding: 16px 20px; display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 26px;">🤖</span>
+      <div style="flex: 1;">
+        <p style="font-size: 16px; font-weight: 800; color: #fff;">③ AI·SW 꿈나무 교실 <span style="font-size: 14px; background: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 10px; margin-left: 4px;">무료</span></p>
+        <p style="font-size: 14px; color: rgba(255,255,255,0.85);">빛고을 6개 대학 연계 · 전체 학년</p>
+      </div>
+    </div>
+    <div style="background: #F7FAFF; padding: 16px 20px;">
+      <p style="font-size: 16px; color: #666; line-height: 1.6; margin-bottom: 12px;">대학과 함께하는 미래 교육! AI·코딩을 놀이처럼 배워요.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">X-로봇-JOY</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">AI정원</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">코딩운동회</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">3D펜 놀이터</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">컵스택 놀이터</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">모바일 앱개발</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">상상 코딩</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">AI놀이교실</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 운영 4: 맞춤형 교육 프로그램 -->
+  <div style="margin-bottom: 20px; border-radius: 16px; overflow: hidden; border: 1px solid #E8F0FF;">
+    <div style="background: #4A9FE0; padding: 16px 20px; display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 26px;">🧩</span>
+      <div style="flex: 1;">
+        <p style="font-size: 16px; font-weight: 800; color: #fff;">④ 맞춤형 교육 프로그램 <span style="font-size: 14px; background: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 10px; margin-left: 4px;">무료</span></p>
+        <p style="font-size: 14px; color: rgba(255,255,255,0.85);">1·2학년 대상</p>
+      </div>
+    </div>
+    <div style="background: #F7FAFF; padding: 16px 20px;">
+      <p style="font-size: 16px; color: #666; line-height: 1.6; margin-bottom: 12px;">저학년 눈높이에 딱 맞는 놀이형 프로그램이에요.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">전래놀이</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">보드게임</span>
+        <span style="background: #fff; border: 1px solid #C5DCFF; color: #1A6FBF; font-size: 14px; padding: 4px 12px; border-radius: 20px;">종이접기</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 운영 5: 초등돌봄교실 -->
+  <div style="border-radius: 16px; overflow: hidden; border: 1px solid #E8F0FF;">
+    <div style="background: #0D4A8A; padding: 16px 20px; display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 26px;">🏡</span>
+      <div style="flex: 1;">
+        <p style="font-size: 16px; font-weight: 800; color: #fff;">⑤ 초등돌봄교실 <span style="font-size: 14px; background: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 10px; margin-left: 4px;">무료</span></p>
+        <p style="font-size: 14px; color: rgba(255,255,255,0.85);">전체 학년 · 1·2학년 우선 선정</p>
+      </div>
+    </div>
+    <div style="background: #F7FAFF; padding: 16px 20px;">
+      <p style="font-size: 16px; color: #666; line-height: 1.6;">초등학생 1~2학년 맞벌이 · 한부모 · 지원대상 가정을 우선 선정하여, 돌봄 전담사님께서 안전하고 따뜻하게 보살펴주세요. (1실~5실 운영)</p>
+    </div>
+  </div>
+</div>
+
+<!-- ⑤ 신청 방법 -->
+<div style="background: var(--bg); padding: 44px 24px;">
+  <p style="font-size: 14px; color: var(--main); font-weight: 700; letter-spacing: 3px; margin-bottom: 12px;">신청 방법</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #222; line-height: 1.45; margin-bottom: 28px;">
+    3단계로 끝나는<br>간편 신청
+  </h2>
+  <div style="display: flex; flex-direction: column; gap: 14px;">
+    <div style="background: #fff; border-radius: 14px; padding: 18px 20px; display: flex; align-items: center; gap: 16px; box-shadow: 0 2px 8px rgba(26,111,191,0.08);">
+      <div style="background: var(--main); color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 900; flex-shrink: 0;">1</div>
+      <div>
+        <p style="font-size: 16px; font-weight: 700; color: #222;">홈페이지 접속</p>
+        <p style="font-size: 14px; color: #888; margin-top: 2px;">늘봄학교 홈페이지에서 로그인</p>
+      </div>
+    </div>
+    <div style="background: #fff; border-radius: 14px; padding: 18px 20px; display: flex; align-items: center; gap: 16px; box-shadow: 0 2px 8px rgba(26,111,191,0.08);">
+      <div style="background: var(--main); color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 900; flex-shrink: 0;">2</div>
+      <div>
+        <p style="font-size: 16px; font-weight: 700; color: #222;">프로그램 선택</p>
+        <p style="font-size: 14px; color: #888; margin-top: 2px;">5개 영역 중 아이에게 맞는 프로그램 고르기</p>
+      </div>
+    </div>
+    <div style="background: #fff; border-radius: 14px; padding: 18px 20px; display: flex; align-items: center; gap: 16px; box-shadow: 0 2px 8px rgba(26,111,191,0.08);">
+      <div style="background: var(--main); color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 900; flex-shrink: 0;">3</div>
+      <div>
+        <p style="font-size: 16px; font-weight: 700; color: #222;">신청 완료!</p>
+        <p style="font-size: 14px; color: #888; margin-top: 2px;">선착순으로 수강신청 마감</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 현장 스케치 갤러리 -->
+<div style="background: #fff; padding: 44px 24px;">
+  <p style="font-size: 14px; color: var(--main); font-weight: 700; letter-spacing: 3px; margin-bottom: 12px;">늘봄 현장</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #222; line-height: 1.45; margin-bottom: 10px;">
+    아이들의 생생한 배움터
+  </h2>
+  <p style="font-size: 14px; color: #888; line-height: 1.6; margin-bottom: 20px;">
+    실제 늘봄학교 수업 현장의 모습입니다
+  </p>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+    <img src="../products/늘봄학교프로그램/images/web/hero.jpg" alt="늘봄 수업 현장" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/morning.jpg" alt="아침 늘봄" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/afterschool.jpg" alt="방과후 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/art.jpg" alt="예술·음악 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/sports.jpg" alt="체육 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/study.jpg" alt="학습 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/think.jpg" alt="바둑 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/science.jpg" alt="컴퓨터 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/ai.jpg" alt="AI 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/custom.jpg" alt="맞춤형 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/care.jpg" alt="돌봄교실" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/gallery1.jpg" alt="로봇 조립 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/gallery2.jpg" alt="코딩 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+    <img src="../products/늘봄학교프로그램/images/web/gallery3.jpg" alt="3D 만들기 수업" style="width: 100%; height: 140px; object-fit: cover; border-radius: 10px; display: block;" onerror="this.style.display='none'">
+  </div>
+</div>
+
+<!-- ⑥ 후기 -->
+<div style="background: #fff; padding: 44px 24px;">
+  <p style="font-size: 14px; color: var(--main); font-weight: 700; letter-spacing: 3px; margin-bottom: 12px;">학부모 후기</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #222; line-height: 1.45; margin-bottom: 24px;">
+    보내고 나서 달라진 것들
+  </h2>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div style="background: var(--bg); border-radius: 16px; padding: 22px;">
+      <div style="color: #FFB800; font-size: 16px; margin-bottom: 10px;">★★★★★</div>
+      <p style="font-size: 16px; color: #333; line-height: 1.7; margin-bottom: 12px;">"다양한 교육 경험으로 꿈과 재능을 가꿀 수 있어서 정말 좋아요. 아이가 스스로 하고 싶은 게 생겼다고 하더라고요!"</p>
+      <p style="font-size: 14px; color: #999;">초등학교 3학년 학부모님</p>
+    </div>
+    <div style="background: var(--bg); border-radius: 16px; padding: 22px;">
+      <div style="color: #FFB800; font-size: 16px; margin-bottom: 10px;">★★★★★</div>
+      <p style="font-size: 16px; color: #333; line-height: 1.7; margin-bottom: 12px;">"맞벌이라 항상 걱정이었는데, 안전하게 학교에서 돌봐주고 배우기까지 하니 너무 든든합니다."</p>
+      <p style="font-size: 14px; color: #999;">초등학교 2학년 학부모님</p>
+    </div>
+  </div>
+</div>
+
+<!-- ⑦ FAQ -->
+<div style="background: var(--bg); padding: 44px 24px;">
+  <p style="font-size: 14px; color: var(--main); font-weight: 700; letter-spacing: 3px; margin-bottom: 12px;">자주 묻는 질문</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #222; margin-bottom: 24px;">FAQ</h2>
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="background: #fff; border-radius: 14px; padding: 20px;">
+      <p style="font-size: 16px; font-weight: 700; color: var(--main); margin-bottom: 8px;">Q. 신청은 언제 할 수 있나요?</p>
+      <p style="font-size: 16px; color: #555; line-height: 1.65;">A. 늘봄학교 홈페이지 공지사항에서 날짜를 확인하고 기간 내에 신청해주세요.</p>
+    </div>
+    <div style="background: #fff; border-radius: 14px; padding: 20px;">
+      <p style="font-size: 16px; font-weight: 700; color: var(--main); margin-bottom: 8px;">Q. 신청 방법이 어렵지 않나요?</p>
+      <p style="font-size: 16px; color: #555; line-height: 1.65;">A. 홈페이지에서 로그인 후 원하는 프로그램을 신청하세요. 요일 및 시간을 정확하게 확인하세요.</p>
+    </div>
+    <div style="background: #fff; border-radius: 14px; padding: 20px;">
+      <p style="font-size: 16px; font-weight: 700; color: var(--main); margin-bottom: 8px;">Q. 수강료는 얼마인가요?</p>
+      <p style="font-size: 16px; color: #555; line-height: 1.65;">A. 프로그램에 따라 무료부터 35,000원까지 다양합니다. 저소득층 자유수강권 등 대상자는 자동으로 우선 차감됩니다.</p>
+    </div>
+    <div style="background: #fff; border-radius: 14px; padding: 20px;">
+      <p style="font-size: 16px; font-weight: 700; color: var(--main); margin-bottom: 8px;">Q. 취소/환불도 가능한가요?</p>
+      <p style="font-size: 16px; color: #555; line-height: 1.65;">A. 수업 시작 전까지 홈페이지에서 취소 가능하며, 환불 규정에 따라 처리됩니다.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ⑧ CTA -->
+<div style="background: linear-gradient(160deg, #1A6FBF 0%, #0D4A8A 100%); padding: 48px 24px; text-align: center;">
+  <p style="font-size: 14px; color: rgba(255,255,255,0.8); margin-bottom: 10px;">지금 바로 신청하세요</p>
+  <h2 style="font-size: 24px; font-weight: 900; color: #fff; line-height: 1.4; margin-bottom: 10px;">
+    아이의 방과 후,<br>늘봄학교가 함께합니다
+  </h2>
+  <p style="font-size: 16px; color: rgba(255,255,255,0.85); margin-bottom: 36px;">신청 기간을 놓치지 마세요!</p>
+  <a href="http://gyelim.gen.es.kr/c2zAfter/?id=85" target="_blank" rel="noopener" style="display: block; background: #fff; color: #1A6FBF; font-size: 18px; font-weight: 900; padding: 18px; border-radius: 50px; text-decoration: none; margin-bottom: 12px;">
+    수강신청 하러 가기 →
+  </a>
+  <a href="#" style="display: block; background: transparent; color: rgba(255,255,255,0.85); font-size: 14px; font-weight: 600; padding: 12px; border: 1.5px solid rgba(255,255,255,0.4); border-radius: 50px; text-decoration: none;">
+    프로그램 더 알아보기
+  </a>
+</div>
+
+<!-- 하단 안내 -->
+<div style="background: #0a2d54; padding: 28px 24px; text-align: center;">
+  <p style="font-size: 15px; color: #cfe0f2; font-weight: 700; margin-bottom: 10px;">광주계림초등학교 늘봄학교</p>
+  <p style="font-size: 14px; color: #7aaddb; line-height: 1.9;">
+    수강신청 문의: 늘봄지원실 062-220-2877<br>
+    초등돌봄교실 문의: 062-220-2874<br>
+    신청 방법: 학교 홈페이지 '늘봄학교 수강신청'<br>
+    환불 규정: 수강 개시 전 전액 환불 / 1/2 경과 시 환불 불가
+  </p>
+</div>
+
+</body>
+</html>

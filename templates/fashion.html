@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>패션 상세페이지 템플릿</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; background: #fff; max-width: 500px; margin: 0 auto; }
+  :root {
+    --main-color: #222222;
+    --sub-color: #888888;
+    --bg-color: #F5F5F5;
+    --accent-color: #FF3B30;
+  }
+</style>
+</head>
+<body>
+
+<!-- 1. 히어로 -->
+<div style="background: #000; padding: 40px 20px; text-align: center;">
+  <img src="../brand/logo/logo.png" alt="로고" style="height: 50px; margin-bottom: 24px; filter: invert(1);" onerror="this.style.display='none'">
+  <p style="font-size: 12px; color: #aaa; letter-spacing: 4px; margin-bottom: 12px;">NEW COLLECTION</p>
+  <h1 style="font-size: 30px; font-weight: 900; color: #fff; line-height: 1.2; margin-bottom: 16px;">
+    헤드라인을<br>여기에 작성
+  </h1>
+  <p style="font-size: 15px; color: #ccc; line-height: 1.6; margin-bottom: 28px;">서브 카피를 여기에 작성하세요</p>
+  <div style="background: #333; height: 380px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 14px;">
+    여기에 착용 사진을 넣으세요
+  </div>
+</div>
+
+<!-- 2. 문제 공감 -->
+<div style="background: #fff; padding: 40px 20px;">
+  <p style="font-size: 12px; color: #888; letter-spacing: 3px; margin-bottom: 12px;">PROBLEM</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #222; line-height: 1.4; margin-bottom: 20px;">이런 불편함 있으셨나요?</h2>
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <div style="border-left: 3px solid #222; padding-left: 16px;">
+      <p style="font-size: 15px; color: #444;">고민 포인트 1</p>
+    </div>
+    <div style="border-left: 3px solid #222; padding-left: 16px;">
+      <p style="font-size: 15px; color: #444;">고민 포인트 2</p>
+    </div>
+    <div style="border-left: 3px solid #222; padding-left: 16px;">
+      <p style="font-size: 15px; color: #444;">고민 포인트 3</p>
+    </div>
+  </div>
+</div>
+
+<!-- 3. 해결책 -->
+<div style="background: var(--bg-color); padding: 40px 20px; text-align: center;">
+  <p style="font-size: 12px; color: #888; letter-spacing: 3px; margin-bottom: 12px;">SOLUTION</p>
+  <h2 style="font-size: 22px; font-weight: 900; color: #222; line-height: 1.4; margin-bottom: 16px;">
+    [상품명]으로<br>해결하세요
+  </h2>
+  <p style="font-size: 15px; color: #666; line-height: 1.7;">해결책 설명을 2~3줄로 작성하세요.</p>
+</div>
+
+<!-- 4. 상품 특징 -->
+<div style="background: #fff; padding: 40px 20px;">
+  <p style="font-size: 12px; color: #888; letter-spacing: 3px; margin-bottom: 12px;">FEATURES</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #222; margin-bottom: 24px;">디테일이 다릅니다</h2>
+  <div style="display: flex; flex-direction: column; gap: 24px;">
+    <div>
+      <div style="background: #f0f0f0; height: 280px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px; margin-bottom: 16px;">디테일 사진 1</div>
+      <p style="font-size: 16px; font-weight: 700; color: #222; margin-bottom: 6px;">특징 제목 1</p>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">특징 설명을 여기에 작성하세요.</p>
+    </div>
+    <div>
+      <div style="background: #f0f0f0; height: 280px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px; margin-bottom: 16px;">디테일 사진 2</div>
+      <p style="font-size: 16px; font-weight: 700; color: #222; margin-bottom: 6px;">특징 제목 2</p>
+      <p style="font-size: 14px; color: #666; line-height: 1.6;">특징 설명을 여기에 작성하세요.</p>
+    </div>
+  </div>
+</div>
+
+<!-- 5. 사이즈/착용 안내 -->
+<div style="background: var(--bg-color); padding: 40px 20px;">
+  <p style="font-size: 12px; color: #888; letter-spacing: 3px; margin-bottom: 12px;">HOW TO WEAR</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #222; margin-bottom: 24px;">이렇게 스타일링하세요</h2>
+  <div style="background: #f0f0f0; height: 300px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px; border-radius: 12px; margin-bottom: 16px;">코디 사진</div>
+  <p style="font-size: 14px; color: #666; line-height: 1.7;">스타일링 팁이나 사이즈 안내를 여기에 작성하세요.</p>
+</div>
+
+<!-- 6. 후기 -->
+<div style="background: #fff; padding: 40px 20px;">
+  <p style="font-size: 12px; color: #888; letter-spacing: 3px; margin-bottom: 12px;">REVIEWS</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #222; margin-bottom: 24px;">고객 후기</h2>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div style="border: 1px solid #eee; border-radius: 12px; padding: 20px;">
+      <div style="color: #222; font-size: 16px; margin-bottom: 8px;">★★★★★</div>
+      <p style="font-size: 15px; color: #333; line-height: 1.6; margin-bottom: 10px;">"후기 내용을 여기에 넣어주세요."</p>
+      <p style="font-size: 13px; color: #999;">홍길동님 · 재구매</p>
+    </div>
+    <div style="border: 1px solid #eee; border-radius: 12px; padding: 20px;">
+      <div style="color: #222; font-size: 16px; margin-bottom: 8px;">★★★★★</div>
+      <p style="font-size: 15px; color: #333; line-height: 1.6; margin-bottom: 10px;">"두 번째 후기를 여기에 넣어주세요."</p>
+      <p style="font-size: 13px; color: #999;">김민지님</p>
+    </div>
+  </div>
+</div>
+
+<!-- 7. FAQ -->
+<div style="background: var(--bg-color); padding: 40px 20px;">
+  <p style="font-size: 12px; color: #888; letter-spacing: 3px; margin-bottom: 12px;">FAQ</p>
+  <h2 style="font-size: 22px; font-weight: 800; color: #222; margin-bottom: 24px;">자주 묻는 질문</h2>
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="background: #fff; border-radius: 12px; padding: 20px;">
+      <p style="font-size: 15px; font-weight: 700; color: #222; margin-bottom: 8px;">Q. 사이즈 선택은 어떻게 하나요?</p>
+      <p style="font-size: 14px; color: #555; line-height: 1.6;">A. 답변을 여기에 작성하세요.</p>
+    </div>
+    <div style="background: #fff; border-radius: 12px; padding: 20px;">
+      <p style="font-size: 15px; font-weight: 700; color: #222; margin-bottom: 8px;">Q. 세탁 방법은요?</p>
+      <p style="font-size: 14px; color: #555; line-height: 1.6;">A. 답변을 여기에 작성하세요.</p>
+    </div>
+    <div style="background: #fff; border-radius: 12px; padding: 20px;">
+      <p style="font-size: 15px; font-weight: 700; color: #222; margin-bottom: 8px;">Q. 교환/반품은요?</p>
+      <p style="font-size: 14px; color: #555; line-height: 1.6;">A. 답변을 여기에 작성하세요.</p>
+    </div>
+  </div>
+</div>
+
+<!-- 8. CTA -->
+<div style="background: #222; padding: 40px 20px; text-align: center;">
+  <p style="font-size: 13px; color: #aaa; margin-bottom: 8px;">LIMITED EDITION</p>
+  <h2 style="font-size: 24px; font-weight: 900; color: #fff; line-height: 1.3; margin-bottom: 8px;">지금 바로 만나보세요</h2>
+  <p style="font-size: 15px; color: #aaa; margin-bottom: 32px;">한정 수량 · 재입고 미정</p>
+  <a href="#" style="display: block; background: #fff; color: #222; font-size: 18px; font-weight: 900; padding: 18px; border-radius: 4px; text-decoration: none; margin-bottom: 12px;">
+    지금 구매하기 →
+  </a>
+</div>
+
+<!-- 하단 안내 -->
+<div style="background: #111; padding: 24px 20px; text-align: center;">
+  <p style="font-size: 13px; color: #666; line-height: 1.8;">
+    배송 안내: 배송 안내 문구<br>
+    교환/반품: 교환반품 안내 문구<br>
+    고객센터: 연락처
+  </p>
+</div>
+
+</body>
+</html>
